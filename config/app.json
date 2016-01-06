@@ -1,0 +1,23 @@
+{
+  "build": {
+    "index.html": "index.html",
+    "app.js": [
+      "../node_modules/react/dist/react.js",
+      //"../../react-account-badge/dist/bundle.js",
+      "../../minreact/bundle.js",
+      "javascripts/app.js",
+      "javascripts/main.jsx"
+    ],
+    "app.css": [
+      "stylesheets/app.css"
+      //"../../react-account-badge/style.css"
+    ],
+    "images/": "images/"
+  },
+  "deploy": [
+  ],
+  "rpc": {
+    "host": "localhost",
+    "port": 8545
+  }
+}
